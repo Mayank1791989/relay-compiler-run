@@ -1,0 +1,13 @@
+{
+  presets: [
+    [
+      'babel-preset-playlyfe',
+      {
+        react: false,
+        targets: {
+          node: "current",
+        },
+      },
+    ],
+  ],
+}
